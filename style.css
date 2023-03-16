@@ -1,0 +1,38 @@
+body{
+    overflow: hidden;
+}
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* background: url('tall.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 10px; */
+    /* z-index: 1; */
+    /* filter: blur(10px); */
+    /* border: 2px solid red; */
+    overflow: hidden;
+    background-color: rgb(211,108,41);
+}
+.back{
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+.redimg{
+    transform: scale(0.3) translateY(205vh);
+    margin: auto;
+
+
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
